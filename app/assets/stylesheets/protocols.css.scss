@@ -1,0 +1,87 @@
+// Place all the styles related to the Protocols controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+
+.protocolmain{
+
+	padding-top: 3px;
+	padding-left: 10px;
+	background-color: #eeeeee;
+	border-radius:6px;
+	
+	.protocoloverview{
+		text-align:left;
+		margin-top:10px;
+		margin-bottom:12px;
+		font-weight:bold;
+		font-size:32px;
+		padding-left:10px;
+	}
+
+	.heading{
+		width:200px;
+	}
+	.heading:hover{
+		color:#00FF00;
+	}
+	
+	.numbering{
+		margin-top:30px;
+		text-align:left;
+		float:left;
+		font-size:32px;
+		font-weight:bold;
+	}
+	
+	.protocoldesc{
+		font-size:16px;
+		font-weight: bold;
+		padding-left: 30px;
+		padding-right: 10px;	
+		text-align:left;		
+	}
+	.workflowname{
+		text-align:left;
+		margin-top:30px;
+		font-weight:bold;
+		font-size:32px;
+		padding-left:10px;
+	}
+
+	.workflowitem{
+		margin-top:20px;
+		margin-left:33px;
+		background-color: #cccccc;
+		width:95%;
+		min-height:100px;
+		text-align:left;
+		border: 2px solid;
+		border-radius:4px;
+		
+		p{
+			line-height:20px;
+			width:80%;
+			padding-top:5px;
+			padding-left:5px;
+		}
+	}
+		
+	.wfspacing{
+		height:16px;
+	}
+	
+	.workflowdesc{
+		padding-left:5px;
+		float:left;
+		max-width:80%;
+	}
+}

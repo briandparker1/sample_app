@@ -4,4 +4,10 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+  
+  def about
+  end
+  
+  def solvit
+  end
 end

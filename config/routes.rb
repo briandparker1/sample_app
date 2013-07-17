@@ -1,7 +1,13 @@
 SampleApp::Application.routes.draw do
+  get "protocols/new"
+
   get "static_pages/home"
 
   get "static_pages/help"
+  
+  get "static_pages/about"
+  
+  get "static_pages/solveit"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
